@@ -1,0 +1,20 @@
+(you make a text file where each line has a process or service you wish to track any outages of)
+there will be two different executables (or you could make them services with some extra codation)
+
+---------First executable will be for Windows Processes
+it will first determine how many other ProcDeadSwitch Executables are running
+then how many procDeadSwitch services are running
+add those numbers and add one to that number and that is the line of the text file it will read to determine which process it is keeping track of
+
+it will display which process it will be looking for on the first line
+it will prompt for the heartbeat check timer, an integer in minutes
+
+thread sleep for approximately whatever minutes * 50000??? depends on the processor i guess
+
+if the process is not found?? then send an email to so and so. 
+
+we would need a service to monitor this dead switch, or redundant dead switches maybe? who's watching the watchmen... we are.
+
+
+
+
